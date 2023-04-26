@@ -5,9 +5,13 @@ How to implement Queue using Array?
 To implement a queue using an array,
 
 1.create an array arr of size n
+
 2.take two variables front and rear both of which will be initialized to 0 which means the queue is currently empty.
+
 3.Element rear is the index up to which the elements are stored in the array
+
 4.Element front is the index of the first element of the array.
+
 
 Some of the implementations of queue operations are as follows:
 1.Enqueue: Addition of an element to the queue. Adding an element will be performed after checking whether the queue is full or not. If rear < n which indicates that the array is not full then store the element at arr[rear] and increment rear by 1 but if rear == n then it is said to be an Overflow condition as the array is full.
